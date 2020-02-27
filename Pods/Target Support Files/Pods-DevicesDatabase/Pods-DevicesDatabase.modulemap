@@ -1,0 +1,6 @@
+framework module Pods_DevicesDatabase {
+  umbrella header "Pods-DevicesDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}
