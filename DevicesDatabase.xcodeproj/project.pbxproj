@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		E74053F2240696BB00D64CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74053F0240696BB00D64CA2 /* LaunchScreen.storyboard */; };
 		E74053FD240696BB00D64CA2 /* DevicesDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74053FC240696BB00D64CA2 /* DevicesDatabaseTests.swift */; };
 		E773256A2406F7E100C761B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77325692406F7E100C761B8 /* GoogleService-Info.plist */; };
+		E7DC763D240C33FF0064ED07 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC763C240C33FF0064ED07 /* DeviceData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E74053FC240696BB00D64CA2 /* DevicesDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesDatabaseTests.swift; sourceTree = "<group>"; };
 		E74053FE240696BB00D64CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77325692406F7E100C761B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7DC763C240C33FF0064ED07 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E74053E5240696BA00D64CA2 /* AppDelegate.swift */,
 				E74053E7240696BA00D64CA2 /* SceneDelegate.swift */,
 				E74053E9240696BA00D64CA2 /* ViewController.swift */,
+				E7DC763C240C33FF0064ED07 /* DeviceData.swift */,
 				E74053EB240696BA00D64CA2 /* Main.storyboard */,
 				E74053EE240696BB00D64CA2 /* Assets.xcassets */,
 				E74053F0240696BB00D64CA2 /* LaunchScreen.storyboard */,
@@ -324,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74053EA240696BA00D64CA2 /* ViewController.swift in Sources */,
+				E7DC763D240C33FF0064ED07 /* DeviceData.swift in Sources */,
 				E74053E6240696BA00D64CA2 /* AppDelegate.swift in Sources */,
 				E74053E8240696BA00D64CA2 /* SceneDelegate.swift in Sources */,
 			);
