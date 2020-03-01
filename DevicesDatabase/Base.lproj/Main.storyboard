@@ -14,7 +14,33 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coneection Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYS-JV-799">
+                                <rect key="frame" x="116" y="20" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLr-D1-ax5">
+                                <rect key="frame" x="16" y="45" width="77" height="30"/>
+                                <state key="normal" title="Add device"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imK-iE-Yy1">
+                                <rect key="frame" x="265" y="45" width="94" height="30"/>
+                                <state key="normal" title="Delete device"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="imK-iE-Yy1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wLr-D1-ax5" secondAttribute="trailing" constant="8" symbolic="YES" id="9oO-jF-acb"/>
+                            <constraint firstItem="UYS-JV-799" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Aly-6O-Js5"/>
+                            <constraint firstItem="UYS-JV-799" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fnq-Av-8Gf"/>
+                            <constraint firstItem="wLr-D1-ax5" firstAttribute="baseline" secondItem="imK-iE-Yy1" secondAttribute="baseline" id="RM6-uz-Msj"/>
+                            <constraint firstItem="wLr-D1-ax5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="YCt-Lb-HqH"/>
+                            <constraint firstItem="imK-iE-Yy1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="a3d-3E-pEW"/>
+                            <constraint firstItem="UYS-JV-799" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="vBt-Jj-u80"/>
+                            <constraint firstItem="wLr-D1-ax5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xfv-Dg-WCC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
