@@ -18,6 +18,7 @@
 		E74053FD240696BB00D64CA2 /* DevicesDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74053FC240696BB00D64CA2 /* DevicesDatabaseTests.swift */; };
 		E773256A2406F7E100C761B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77325692406F7E100C761B8 /* GoogleService-Info.plist */; };
 		E7DC763D240C33FF0064ED07 /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC763C240C33FF0064ED07 /* DeviceData.swift */; };
+		E7FD25A9240D24C70074F341 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FD25A8240D24C70074F341 /* DeviceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E74053FE240696BB00D64CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77325692406F7E100C761B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7DC763C240C33FF0064ED07 /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		E7FD25A8240D24C70074F341 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				E74053E5240696BA00D64CA2 /* AppDelegate.swift */,
 				E74053E7240696BA00D64CA2 /* SceneDelegate.swift */,
 				E74053E9240696BA00D64CA2 /* ViewController.swift */,
+				E7FD25A8240D24C70074F341 /* DeviceTableViewCell.swift */,
 				E7DC763C240C33FF0064ED07 /* DeviceData.swift */,
 				E74053EB240696BA00D64CA2 /* Main.storyboard */,
 				E74053EE240696BB00D64CA2 /* Assets.xcassets */,
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FD25A9240D24C70074F341 /* DeviceTableViewCell.swift in Sources */,
 				E74053EA240696BA00D64CA2 /* ViewController.swift in Sources */,
 				E7DC763D240C33FF0064ED07 /* DeviceData.swift in Sources */,
 				E74053E6240696BA00D64CA2 /* AppDelegate.swift in Sources */,

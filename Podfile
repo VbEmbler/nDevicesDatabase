@@ -14,6 +14,12 @@ target 'DevicesDatabase' do
 	pod 'SnapKit', '~> 5.0.0'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Database'
+	pod 'RxFirebase/Firestore'
+	pod 'RxFirebase/RemoteConfig'
+	pod 'RxFirebase/Database'
+	pod 'RxFirebase/Storage'
+	pod 'RxFirebase/Auth'
+	pod 'RxFirebase/Functions'
 
   target 'DevicesDatabaseTests' do
     inherit! :search_paths
